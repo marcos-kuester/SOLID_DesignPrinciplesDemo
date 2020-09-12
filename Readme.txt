@@ -12,7 +12,7 @@
 CREATE DATE ...: 2020-09-12
 DESCRIPTION ...: SOLID DESIGN PRINCIPLES DEMO
                  S. SINGLE RESPONSABILITY
-                 O. 
-                 L. 
+                 O. OPEN-CLOSE (OPEN FOR EXTENSION BUT CLOSE FOR MODIFICATION)
+                 L. LISKOV SUBSTITUTION (BASE TYPE FOR SUB-TYPE AND VICE-VERSA)
                  I.
                  D.
