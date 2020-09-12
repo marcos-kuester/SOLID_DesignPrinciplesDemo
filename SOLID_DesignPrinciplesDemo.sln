@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_O_OpenClose", "02_O_Open
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_L_LiskovSubstitution", "03_L_LiskovSubstitution\03_L_LiskovSubstitution.csproj", "{08A01959-A234-4D64-869C-26FCB122308D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_I_InterfaceSegregation", "04_I_InterfaceSegregation\04_I_InterfaceSegregation.csproj", "{805D4166-3853-45F6-A420-ABB9BD5E7D53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{08A01959-A234-4D64-869C-26FCB122308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A01959-A234-4D64-869C-26FCB122308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A01959-A234-4D64-869C-26FCB122308D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805D4166-3853-45F6-A420-ABB9BD5E7D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805D4166-3853-45F6-A420-ABB9BD5E7D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805D4166-3853-45F6-A420-ABB9BD5E7D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805D4166-3853-45F6-A420-ABB9BD5E7D53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
