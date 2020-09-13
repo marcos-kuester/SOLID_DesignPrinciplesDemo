@@ -83,6 +83,14 @@ namespace _04_I_InterfaceSegregation
             multi.Copy(doc);
             multi.Scan(doc);
             multi.Print(doc);
+
+            // Result
+            // ------------------------
+            // Print This is a document
+            // Scan This is a document
+            // Copy This is a document
+            // Scan This is a document
+            // Print This is a document
         }
     }
 }

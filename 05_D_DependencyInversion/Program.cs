@@ -129,6 +129,13 @@ namespace _05_D_DependencyInversion
             var productView = new ProductView();
 
             productView.PrintProducts(productController.GetAll());
+
+            // Result
+            // ---------------------------------------------------------------------
+            // [13/09/2020 16:06:13] Information: Product Controller GetAll() Called
+            // 1 A 9,99
+            // 2 B 8,99
+            // 3 C 7,99
         }
     }
 }

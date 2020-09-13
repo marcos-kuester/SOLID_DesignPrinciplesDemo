@@ -138,6 +138,16 @@ namespace _02_O_OpenClose
             {
                 WriteLine($"{item.GetName()} {item.GetColor()} {item.GetSize()}");
             }
+
+            // Result
+            // -----------------------
+            // Red products:
+            // B Red Medium
+            // C Red Large
+            //
+            // Blue and Small products:
+            // A Blue Small
+            // D Blue Small
         }
     }
 

@@ -57,6 +57,12 @@ namespace _03_L_LiskovSubstitution
 
             Rectangle square2 = new Square(4);
             WriteLine(square2.ToString());
+
+            // Result
+            // ---------------------------
+            // Width: 3 Height: 2 Area: 6
+            // Width: 3 Height: 3 Area: 9
+            // Width: 4 Height: 4 Area: 16
         }
     }
 }

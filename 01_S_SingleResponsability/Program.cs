@@ -53,6 +53,11 @@ namespace _01_S_SingleResponsability
             var fileName = @"alarms.txt";
             persistence.SaveToDisk(fileName, alarms);
             persistence.ReadFromDisk(fileName);
+
+            // Result
+            // -------------------
+            // 13/09/2020 17:08:11
+            // 14/09/2020 00:00:00
         }
     }
 }
