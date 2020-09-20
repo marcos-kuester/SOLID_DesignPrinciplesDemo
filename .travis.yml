@@ -21,3 +21,7 @@ jobs:
     - stage: Tests
       script:
         - dotnet test ".\SOLID_DesignPrinciplesDemo.sln" -c Release -v n
+        
+    - stage: Quality
+      script:
+        - sonar-scanner
