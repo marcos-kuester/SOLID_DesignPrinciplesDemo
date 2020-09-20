@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "kuester"
     token:
-      secure: $SONAR_TOKEN
+      secure: "$SONAR_TOKEN"
 
 script:
   - dotnet restore ".\SOLID_DesignPrinciplesDemo.sln"
