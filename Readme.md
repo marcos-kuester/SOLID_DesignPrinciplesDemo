@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/marcos-kuester/SOLID_DesignPrinciplesDemo.svg?branch=master)](https://travis-ci.com/marcos-kuester/SOLID_DesignPrinciplesDemo)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marcos-kuester_SOLID_DesignPrinciplesDemo&metric=alert_status)](https://sonarcloud.io/dashboard?id=marcos-kuester_SOLID_DesignPrinciplesDemo)
 
 ```
  __       __          __                                    __
