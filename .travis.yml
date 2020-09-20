@@ -1,0 +1,16 @@
+language: csharp
+mono: none
+dotnet: 3.1
+
+script:
+ - dotnet restore ".\SOLID_DesignPrinciplesDemo.sln"
+
+jobs:
+  include:
+    - stage: Build
+	  script:
+      - dotnet build ".\SOLID_DesignPrinciplesDemo.sln" -c Release
+	   
+	- stage: Tests
+	  script:
+	    - dotnet test ".\SOLID_DesignPrinciplesDemo.sln" -c Release -v n
