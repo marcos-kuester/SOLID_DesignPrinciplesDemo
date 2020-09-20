@@ -4,6 +4,12 @@ dist: xenial
 mono: none
 dotnet: 3.1
 
+addons:
+  sonarcloud:
+    organization: "kuester"
+    token:
+      secure: '$SONAR_TOKEN'
+
 script:
   - dotnet restore ".\SOLID_DesignPrinciplesDemo.sln"
 
