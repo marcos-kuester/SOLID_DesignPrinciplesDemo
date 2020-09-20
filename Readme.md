@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.com/marcos-kuester/SOLID_DesignPrinciplesDemo.svg?branch=master)](https://travis-ci.com/marcos-kuester/SOLID_DesignPrinciplesDemo)
 
-__       __          __                                    __
+```
+ __       __          __                                    __
 |  \     /  \        |  \                                  |  \
 | ▓▓\   /  ▓▓ ______ | ▓▓   __ __    __  ______   _______ _| ▓▓_
 | ▓▓▓\ /  ▓▓▓|      \| ▓▓  /  \  \  |  \/      \ /       \   ▓▓ \
@@ -18,3 +19,4 @@ DESCRIPTION ...: SOLID DESIGN PRINCIPLES DEMO
                  L. LISKOV SUBSTITUTION (BASE TYPE FOR SUB-TYPE AND VICE-VERSA)
                  I. INTERFACE SEGREGATION
                  D. DEPENDENCY INVERSION (IoC, DI)
+```
