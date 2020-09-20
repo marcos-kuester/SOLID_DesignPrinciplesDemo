@@ -1,4 +1,6 @@
-﻿﻿﻿﻿ __       __          __                                    __
+[![Build Status](https://travis-ci.com/marcos-kuester/SOLID_DesignPrinciplesDemo.svg?branch=master)](https://travis-ci.com/marcos-kuester/SOLID_DesignPrinciplesDemo)
+
+__       __          __                                    __
 |  \     /  \        |  \                                  |  \
 | ▓▓\   /  ▓▓ ______ | ▓▓   __ __    __  ______   _______ _| ▓▓_
 | ▓▓▓\ /  ▓▓▓|      \| ▓▓  /  \  \  |  \/      \ /       \   ▓▓ \
