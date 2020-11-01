@@ -91,7 +91,7 @@ namespace _05_D_DependencyInversion
 
     public class ProductController
     {
-        private IProductRepository _productRepo;
+        private readonly IProductRepository _productRepo;
         private ILogger _logger;
 
         public ProductController(ILogger logger, IProductRepository productRepo)
@@ -123,11 +123,11 @@ namespace _05_D_DependencyInversion
         static void Main(string[] args)
         {
             // IoC
-            var loger = new AppLogger();
-            var productRepo = new ProductRepository();
+            ILogger loger = new AppLogger();
+            IProductRepository productRepo = new ProductRepository();
+
             var productController = new ProductController(loger, productRepo);
             var productView = new ProductView();
-
             productView.PrintProducts(productController.GetAll());
 
             // Result
