@@ -9,7 +9,7 @@ addons:
     organization: "kuester"
     token: "$SONAR_TOKEN"
 
-script:  
+script:
   - dotnet restore ".\SOLID_DesignPrinciplesDemo.sln"
 
 jobs:
@@ -24,9 +24,4 @@ jobs:
         
     - stage: Quality
       script:
-        - dotnet tool install --global dotnet-sonarscanner
-        - dotnet-sonarscanner
-        - sonarscanner
-        - dotnet-sonarscanner begin /k:"marcos-kuester_SOLID_DesignPrinciplesDemo" 
-        - dotnet build ".\SOLID_DesignPrinciplesDemo.sln"
-        - dotnet-sonarscanner end 
+        - sonar-scanner
