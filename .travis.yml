@@ -25,12 +25,8 @@ jobs:
     - stage: Quality
       script:
         - dotnet tool install --global dotnet-sonarscanner
-        - echo "::set-env name=PATH::${PATH}:${HOME}/.dotnet/tools"
-        - dotnet dotnet-sonarscanner
-        - dotnet sonarscanner
-        - dotnet sonarscanner begin /k:"marcos-kuester_SOLID_DesignPrinciplesDemo" 
+        - dotnet-sonarscanner
+        - sonarscanner
+        - dotnet-sonarscanner begin /k:"marcos-kuester_SOLID_DesignPrinciplesDemo" 
         - dotnet build ".\SOLID_DesignPrinciplesDemo.sln"
-        - dotnet sonarscanner end 
-        - dotnet dotnet-sonarscanner begin /k:"marcos-kuester_SOLID_DesignPrinciplesDemo" 
-        - dotnet build ".\SOLID_DesignPrinciplesDemo.sln"
-        - dotnet dotnet-sonarscanner end 
+        - dotnet-sonarscanner end 
